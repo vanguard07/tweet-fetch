@@ -1,0 +1,28 @@
+#content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    bottom: 0;
+}
+iframe {
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+
+#query {
+  float: left;
+  width: 33%;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchbar {
+    margin: auto;
+
+}
