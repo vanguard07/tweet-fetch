@@ -13,7 +13,7 @@
         <div class="col-sm-4"></div>
         <div class="searchbar col-sm-4">
             <form id="form" action="tweets.php" method="post" target="frame">
-                <input type="text" name="hashtag" placeholder="Enter hashtag to search" id = "query" onkeyup="checkBox()">
+                <input type="text" name="hashtag" placeholder="Enter hashtag to search(Eg: facebook)" id = "query" onkeyup="checkBox()">
             </form>
         </div>
     </div>

@@ -14,7 +14,7 @@ use Abraham\TwitterOAuth\TwitterOAuth;
         <link rel="stylesheet" type="text/css"  href="tweets.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     </head>
-    <body>
+    <body background-color>
         <?php
         $connection = new TwitterOAuth($consumer_key, $consumer_secret, $access_token, $access_token_secret);
         $tweets = $connection->get(
